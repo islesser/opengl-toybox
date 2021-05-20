@@ -1,0 +1,29 @@
+Build
+.vs
+.vscode
+.idea
+cmake-build-debug
+cmake_build_debug
+out
+
+**/.DS_Store
+
+# XCode
+**/*.xc*
+
+# Visual Studi0
+*.vcxproj*
+**/*.sln
+
+# Make
+**/Makefile
+**/*.make
+
+# Node
+/node_modules
+
+# Misc
+
+.vscode/ipch
+
+Profiling/*.json
