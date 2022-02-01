@@ -28,8 +28,8 @@
 class Clock {
 
  public:
-  static double DeltaTime;          // Delta time (Time since last frame) in seconds
-  static double ElapsedTime;          // Total elapsed time in seconds, scaled by mScale
+  static double DeltaTime;         // Delta time (Time since last frame) in seconds
+  static double ElapsedTime;       // Total elapsed time in seconds, scaled by mScale
 
  private:
   double mStart{0};                // Starting system time (nanoseconds)
