@@ -74,5 +74,5 @@
 #ifdef __APPLE__
 #define RESOURCE(x) CONCAT_STR("Resources/", x)
 #else
-#define RESOURCE(x) CONCAT_STR("../../../Resources/", x)
+#define RESOURCE(x) CONCAT_STR("../Resources/", x)
 #endif
